@@ -30,8 +30,8 @@ const AssetsDict = () => {
 
   const menuItems = [
     { text: "Dashboard", icon: <DashboardIcon />, path: "/" },
-    { text: "My surveys", icon: <DescriptionIcon />, path: "/surveys" },
-    { text: "Mentoring", icon: <GroupIcon />, path: "/mentoring" },
+
+    { text: "Mentoring", icon: <GroupIcon />, path: "/menteedashboard" },
   ];
 
   const handleDrawerToggle = () => {
